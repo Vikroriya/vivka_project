@@ -1,0 +1,79 @@
+
+h1{
+ color: rgb(0, 255, 174)
+}
+
+li:hover {
+  color: rgb(0, 255, 255);
+}
+
+h1:hover {
+    color: rgb(0, 217, 255);
+}
+
+h1 {
+    text-decoration: none;
+    background-color: #00a2ff;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+body {
+	background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	transform: translate3d(0, 0, 0);
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+li{
+ color: rgb(0, 0, 0)
+}
+
+border{
+background-color: rgb(255, 255, 255); 
+}
+backdround-color {
+  background: linear-gradient(blue, pink);
+}
+
+h1{
+  font-family: 'Arial', 'Verdana', sans-serif;
+  font-size: 21px;
+}
+.normal {
+  font-style: normal;
+  font-variant: normal;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+
+li {
+  font-family: 'Arial', 'Verdana', sans-serif;
+  font-size: 21px;
+}
+.normal {
+  font-style: normal;
+  font-variant: normal;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+
+
